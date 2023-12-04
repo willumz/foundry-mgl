@@ -59,16 +59,18 @@ const batchCompendiumUpdaterMap = {
 }
 
 const onRenderSideBar = (app, html) => {
-    if (!game.user.hasRole(4)) return;
-    let button = $(`<button><i class='fas fa-exchange-alt'></i>Metrify all the ${app?.options?.id}</button>`);
-    const type = app?.options?.id;
+    if (!game.user.hasRole(4)) return;   
+    const type = app.id;
+    let button = $(`<button><i class='fas fa-exchange-alt'></i>Metrify all the ${type}</button>`);
+    
     if (batchCompendiumUpdaterMap[game.system.id][type])
+
         batchCompendiumUpdaterMap[game.system.id][type](type === 'compendium' ? game.packs.keys() : game[type], type, button);
-    if (app?.options?.id !== 'combat' && app?.options?.id !== 'playlists' && !app?.options?.id.includes('popout')) {
+
+    if (type !== 'combat' && type !== 'playlists' && !type.includes('popout')) {
         html.find(".directory-footer").append(button);
         html.find(".directory-footer").removeClass('action-buttons')
     }
-
 }
 
 const addButton = (element, entity, type, html) => {
