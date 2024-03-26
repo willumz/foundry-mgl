@@ -3,6 +3,9 @@
 Foundry-MGL is intended to be the ultimate tool for playing dnd5e in the metric system.
 The core concept behind Foundry-MGL is the idea of expandability this is why it is able to convert all types of text and labels that are found on the dnd5e system.
 
+## Installation
+To install the module, you can use the following manifest URL: `https://github.com/willumz/foundry-mgl/releases/latest/download/module.json`
+
 ## Tools
  The conversion tools offered by this module can be split into 2:
   - *simple conversion*: simple conversion can be done to all the different types of entities. It converts a single entity at a time and the operation can be redone at any time
