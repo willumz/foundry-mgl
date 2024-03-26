@@ -12,9 +12,9 @@ import {addNewSizes, convertI18NObject} from "./Pf2e/Pf2eConverter.js";
 
 Hooks.on('init', () => {
     if (game.system.id === 'dnd5e') {
-        consoleLog("Changing labels 'Feet' and 'Miles' to 'Meters' and 'Kilometers'.")
-        CONFIG.DND5E.distanceUnits["m"] = game.i18n.localize("metricsystem.meters");
-        CONFIG.DND5E.distanceUnits["km"] = game.i18n.localize("metricsystem.kilometers");
+        consoleLog("Changing labels 'Feet' and 'Miles' to 'Metres' and 'Kilometres'.")
+        CONFIG.DND5E.distanceUnits["m"] = game.i18n.localize("metricsystem.metres");
+        CONFIG.DND5E.distanceUnits["km"] = game.i18n.localize("metricsystem.kilometres");
         consoleLog("Changing encumbrance calculation.")
         CONFIG.DND5E.encumbrance["currencyPerWeight"].imperial = 100;
         CONFIG.DND5E.encumbrance["strMultiplier"].imperial = 7.5;

@@ -14,7 +14,7 @@ export default {
             key: "inchConversionMultiplier",
             data: {
                 name: "Inch Conversion Multiplier: ",
-                hint: "1 inch = this many centimeters",
+                hint: "1 inch = this many centimetres",
                 type: Number,
                 default: 2.5,
                 scope: "world",
@@ -26,7 +26,7 @@ export default {
             key: "feetConversionMultiplier",
             data: {
                 name: "Feet Conversion Multiplier: ",
-                hint: "1 feet = this many meters",
+                hint: "1 feet = this many metres",
                 type: Number,
                 default: 0.3,
                 scope: "world",
@@ -38,7 +38,7 @@ export default {
             key: "mileConversionMultiplier",
             data: {
                 name: "Mile Conversion Multiplier: ",
-                hint: "1 mile = this many kilometers",
+                hint: "1 mile = this many kilometres",
                 type: Number,
                 default: 1.6,
                 scope: "world",
@@ -62,7 +62,7 @@ export default {
             key: "gallonConversionMultiplier",
             data: {
                 name: "Gallon Conversion Multiplier: ",
-                hint: "1 gallon = this many liters",
+                hint: "1 gallon = this many litres",
                 type: Number,
                 default: 3.5,
                 scope: "world",

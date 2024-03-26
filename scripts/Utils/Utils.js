@@ -1,5 +1,5 @@
 const moduleName = 'foundry-mgl';
-const moduleTitle = 'Foundry Meters, Grams & Liters';
+const moduleTitle = 'Foundry Metres, Grams & Litres';
 
 const consoleLog = (output) => {
     console.log(
