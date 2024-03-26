@@ -1,9 +1,6 @@
-# Foundry Metrics, Grams and Liters
-![downloads](https://img.shields.io/github/downloads/HadaIonut/Foundry-mgl/latest/module.zip?style=for-the-badge)
-![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2FFoundry-MGL&colorB=4aa94a&style=for-the-badge)
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A32J9GM)
+# Foundry Metres, Grams and Litres
 
-Foundry-mgl is intended to be the ultimate tool for playing dnd5e in the metric system.
+Foundry-MGL is intended to be the ultimate tool for playing dnd5e in the metric system.
 The core concept behind Foundry-MGL is the idea of expandability this is why it is able to convert all types of text and labels that are found on the dnd5e system.
 
 ## Tools
@@ -77,9 +74,9 @@ The core concept behind Foundry-MGL is the idea of expandability this is why it 
   No problem, all the conversions done in this module are based on multipliers that can be modified in the settings.
   
   At the moment I am converting:
-   - inches to centimeters (the default rate is 1 inch = 2.5 cm)
-   - feet to meters (the default rate is 1 feet = 0.3 m)
-   - miles to kilometers (the default rate is 1 mile = 1.6 km)
+   - inches to centimetres (the default rate is 1 inch = 2.5 cm)
+   - feet to metres (the default rate is 1 feet = 0.3 m)
+   - miles to kilometres (the default rate is 1 mile = 1.6 km)
    - pounds to kilograms (the default rate is 1 pound = 0.5 kg)
    
    ## Expanding to other systems?

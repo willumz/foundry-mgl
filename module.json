@@ -12,7 +12,7 @@
       "url": "https://github.com/willumz"
     }
   ],
-  "version": "1.1.9",
+  "version": "1.1.10",
   "esmodules": [
     "scripts/foundry-mgl.js"
   ],
@@ -46,7 +46,7 @@
     "maximum": "11"
   },
   "url": "https://github.com/willumz/foundry-mgl",
-  "manifest": "https://github.com/willumz/foundry-mgl/releases/download/v1.1.9/module.json",
-  "download": "https://github.com/willumz/foundry-mgl/releases/download/v1.1.9/module.zip",
+  "manifest": "https://github.com/willumz/foundry-mgl/releases/download/latest/module.json",
+  "download": "https://github.com/willumz/foundry-mgl/releases/download/latest/module.zip",
   "changelog": ""
 }
