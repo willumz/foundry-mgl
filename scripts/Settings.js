@@ -2,11 +2,11 @@ import {moduleName} from './Utils/Utils.js'
 import settingsLists from "./settingsLists.js";
 
 const registerSetting = (key, data) => {
-    game.settings.register('Foundry-MGL', key, data);
+    game.settings.register('foundry-mgl', key, data);
 }
 
 const getSetting = (key) => {
-    return game.settings.get('Foundry-MGL', key);
+    return game.settings.get('foundry-mgl', key);
 }
 
 const setSetting = (key, data) => {

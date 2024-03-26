@@ -201,6 +201,8 @@ const speedConverter = (speed) => {
 }
 
 const detailsConverter = (details) => {
+    console.log("CHecking...")
+    console.log(details)
     if (details.biography) {
         details.biography.value = convertText(details.biography.value);
     }

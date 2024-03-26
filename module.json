@@ -1,15 +1,17 @@
 {
-  "id": "Foundry-MGL",
+  "id": "foundry-mgl",
   "title": "Foundry Metres, Grams and Litres",
   "description": "An expandable module that allows for easy and quick conversion of any data in the imperial system to the metric system.",
   "authors": [
     {
       "name": "HadaIonut",
-      "url": "https://github.com/HadaIonut"
+      "url": "https://github.com/HadaIonut",
+      "flags": {}
     },
     {
       "name": "willumz",
-      "url": "https://github.com/willumz"
+      "url": "https://github.com/willumz",
+      "flags": {}
     }
   ],
   "version": "1.1.10",
@@ -23,7 +25,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -31,22 +34,22 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json"
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {}
       },
       {
         "id": "pf2e",
         "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json"
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {}
       }
     ]
   },
   "compatibility": {
     "minimum": "10",
-    "verified": "10",
-    "maximum": "11"
+    "verified": "10"
   },
   "url": "https://github.com/willumz/foundry-mgl",
   "manifest": "https://github.com/willumz/foundry-mgl/releases/latest/download/module.json",
-  "download": "https://github.com/willumz/foundry-mgl/releases/latest/download/module.zip",
-  "changelog": ""
+  "download": "https://github.com/willumz/foundry-mgl/releases/latest/download/module.zip"
 }
