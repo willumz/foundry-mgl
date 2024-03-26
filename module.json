@@ -4,11 +4,11 @@
   "description": "An expandable module that allows for easy and quick conversion of any data in the imperial system to the metric system.",
   "authors": [
     {
-      "id": "HadaIonut",
+      "name": "HadaIonut",
       "url": "https://github.com/HadaIonut"
     },
     {
-      "id": "willumz",
+      "name": "willumz",
       "url": "https://github.com/willumz"
     }
   ],
