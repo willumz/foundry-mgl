@@ -201,7 +201,9 @@ const speedConverter = (speed) => {
 }
 
 const detailsConverter = (details) => {
-    details.biography.value = convertText(details.biography.value);
+    if (details.biography) {
+        details.biography.value = convertText(details.biography.value);
+    }
     if (details.appearance) details.appearance = convertText(details.appearance);
     if (details.bond) details.bond = convertText(details.bond);
     if (details.flaw) details.flaw = convertText(details.flaw);
@@ -216,6 +218,7 @@ const actorDataConverter = (data) => {
     if (data.attributes.senses) data.attributes.senses = sensesConverter(data.attributes.senses);
     //data.traits.senses = imperialReplacer(data.traits.senses || '', /(?<value>[0-9]+ ?)(?<unit>[\w]+)/g)
     data.details = detailsConverter(data.details);
+    console.log(data);
 
     return data;
 }
