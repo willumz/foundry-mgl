@@ -8,12 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        path: foundry-mgl
       - name: Create module.zip
         run: |
           sudo apt install nodejs npm -y
           npm install -D
           npm run build
-          zip -r module.zip ${{ github.workspace }}
+          zip -r module.zip "${{ github.workspace }}/foundry-mgl"
       - name: Create new draft release
         id: create_release
         uses: "marvinpinto/action-automatic-releases@latest"
