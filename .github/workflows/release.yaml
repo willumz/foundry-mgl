@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Create module.zip
         run: |
-          apt install nodejs npm -y
+          sudo apt install nodejs npm -y
           npm install -D
           npm run build
           zip -r module.zip ${{ github.workspace }}
