@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        path: foundry-mgl
+        with:
+          path: foundry-mgl
       - name: Create module.zip
         run: |
           sudo apt install nodejs npm -y
