@@ -4,8 +4,8 @@
   "description": "Foundry-MGL is intended to be the ultimate tool for playing dnd5e in the metric system.\r The core concept behind Foundry-MGL is the idea of expandability this is why it is able to convert all types of text and labels that are found on the dnd5e system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo Built"
+    "test": "vitest",
+    "build": "pnpm test && tsc && sass src/styles:styles"
   },
   "author": "",
   "license": "ISC",

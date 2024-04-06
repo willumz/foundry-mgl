@@ -1,3 +1,7 @@
+# Build output
+scripts
+styles
+
 # Logs
 logs
 *.log
