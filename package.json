@@ -8,5 +8,9 @@
     "build": "echo Built"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.4",
+    "vitest": "^1.4.0"
+  }
 }
