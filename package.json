@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "sass": "^1.74.1",
     "typescript": "^5.4.4",
     "vitest": "^1.4.0"
   }
