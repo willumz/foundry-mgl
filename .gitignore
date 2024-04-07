@@ -1,6 +1,6 @@
 # Build output
-scripts/
-styles/
+/scripts/
+/styles/
 
 # Logs
 logs
